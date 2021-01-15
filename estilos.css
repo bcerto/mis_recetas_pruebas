@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.encabezado {
+    background-color: lightgray;
+    height: 120px;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.menu-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menu-navegacion ul li {
+    background-color: teal;
+    display: inline-block;
+    color: white;
+}
+
+.menu-navegacion ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-navegacion {
+    background-color: teal;
+}
+
+.menu-navegacion ul li a:hover {
+    background-color: rgb(2, 168, 168);
+}
+
+.seccion-contenido {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: lightpink;
+    height: 100vh;
+    width: 70%;
+    position: relative;
+    z-index: -10;
+}
+
+.item-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.receta-1 {
+    background-color: lightskyblue;
+
+}
+
+.receta-2 {
+    background-color: lightgreen;
+
+}
+
+.receta-3 {
+    background-color: lightyellow;
+
+}
+
+.menu-lateral {
+    background-color: lime;
+    height: 10vh;
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+ 
+}
+
+.menu-lateral ul li {
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+
+.pie-de-pagina {
+    background-color: lightskyblue;
+    height: 40px;
+    width: 100%;
+}
