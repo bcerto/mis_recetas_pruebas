@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,62 +9,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        <header class="encabezado">
-            Mis Recetas
-        </header>
+    <header class="encabezado">
+        Mis Recetas
+    </header>
 
-        <nav class="menu-navegacion">
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Recetas</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="seccion">
+
+        <aside class="menu-lateral">
+            <h3>Recetas recomendadas:</h3>
+            <br>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Recetas</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>Receta Asado</li>
+                <li>Receta Choripan</li>
+                <li>Receta Ñoquis de papa</li>
+                <li>Receta Ñoquis rellenos</li>
+                <li>Receta Pastel de papa</li>
             </ul>
-        </nav>
 
-        <div  class="contenedor-principal">
+            <br>
+            <br>
+            <br>
 
-            <aside class="menu-lateral">
-                <h3>Recetas del Dia</h3>
-                <br>
-                <ul>
-                    <li>Receta Asado</li>
-                    <li>Receta Choripan</li>
-                    <li>Receta Ñoquis de papa</li>
-                    <li>Receta Ñoquis rellenos</li>
-                    <li>Receta Pastel de papa</li>
-                </ul>
-            </aside>
+            <input type="text" placeholder="Buscar receta">
+            <input type="submit" value="Buscar">
+            
+        </aside>
 
-            <section class="seccion-contenido">
-                <article>
-                    <div class="receta">
-                        <h3>Receta 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque ex laudantium.</p>
-                        <br>
-                        <img class="imagenes" src="/_resources/lubina-con-hummus-de-guisantes.jpg" alt="">
-                    </div>
+        <article class="contenido-articulos">
+            <div class="receta">
+                <h3>Receta 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis
+                    consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque
+                    ex laudantium.</p>
+                    <br>
+                    <img src="/_resources/espaguetis-de-calabacin.jpg" width="300px" alt="">
+            </div>
 
-                    <div class="receta">
-                        <h3>Receta 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque ex laudantium.</p>
-                        <br>
-                        <img class="imagenes" src="/_resources/espaguetis-de-calabacin.jpg" alt="">
-                    </div>
+            <div class="receta">
+                <h3>Receta 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis
+                    consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque
+                    ex laudantium.</p>
+                    <br>
+                    <img src="/_resources/lubina-con-hummus-de-guisantes.jpg" width="300px" alt="">
+            </div>
 
-                    <div class="receta">
-                        <h3>Receta 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque ex laudantium.</p>
-                        <br>
-                        <img class="imagenes" src="/_resources/tiramisu-express.jpg" alt="">
-                    </div>
-                </article>
-            </section>
-        </div>
+            <div class="receta">
+                <h3>Receta 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis
+                    consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque
+                    ex laudantium.</p>
+                    <br>
+                    <img src="/_resources/vichyssoise-de-esparragos-blancos.jpg" width="300px" alt="">
+            </div>
 
-        <footer class="pie-de-pagina">
-            <h4>Copyright - Todos los derechos reservados 2021</h4>
-        </footer>
+            <div class="receta">
+                <h3>Receta 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid fugit consequatur omnis
+                    consectetur nemo pariatur eius debitis tempora ex, ipsam dolore? Impedit vero quos magnam non neque
+                    ex laudantium.</p>
+                    <br>
+                    <img src="/_resources/tiramisu-express.jpg" width="300px" alt="">
+            </div>
+        </article>
+    </section>
+
+    <footer class="pie-de-pagina">
+        <h4>Copyright - Todos los derechos reservados 2021</h4>
+    </footer>
 </body>
+
 </html>
