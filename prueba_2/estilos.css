@@ -1,0 +1,189 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 0.85em;
+}
+.encabezado {
+    display: block;
+    background-color: lightgray;
+    width: auto;
+    height: 120px;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.menu-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.menu-navegacion ul li {
+    background-color: rgb(0, 130, 130);
+    display: inline-block;
+    color: white;
+}
+
+.menu-navegacion ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-navegacion {
+    background-color: rgb(0, 130, 130);
+}
+
+.menu-navegacion ul li a:hover {
+    background-color: rgb(2, 197, 197);
+    transform: scale(1.05);
+}
+
+.imagenes {
+    width: 200px;
+}
+body {
+    background-image: url(/prueba_2/_resources/food\ pattern.png);
+    background-size: 200px;
+}
+
+.texto-de-dia {
+    margin: 20px;
+    padding-right: 20px;
+    justify-content: left;
+}
+
+.receta-de-dia {
+    height: 350px;
+    width: 85%;
+    margin: 20px auto;
+    background-color: rgb(235, 235, 235);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-del-dia img{
+    width: 560px;
+    border-radius: 10px;
+}
+
+.imagen-comida-1 {
+    height: 500px;
+    width: auto;
+    background-color: blueviolet;
+    background-image: url(/prueba_2/_resources/Comida-típica-de-Bangladesh.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    border-bottom: 40px solid  rgb(0, 130, 130);
+    border-top: 40px solid  rgb(0, 130, 130);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.seccion {
+    display: flex;
+    height: 400px;
+}
+
+.contenido-articulos {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: -20;
+}
+
+.receta {
+    background-image: url(/_resources/madera.jpeg);
+    border-radius: 5px;
+    width: 220px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: -20;
+}
+
+.receta:hover {
+    transform: scale(1.04);
+}
+
+.container-ganador {
+    background-color: burlywood;
+    height: 800px;
+}
+
+.receta-ganador {
+    background-image: url(/prueba_2/_resources/tabla-cocina.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px black);
+}
+.container-contacto {
+    height: 100vh;
+}
+
+.container-contacto input {
+    padding: 5px;
+}
+
+.tabla-cortar-contacto {
+    background-image: url(/prueba_2/_resources/tabla-cocina.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 650px;
+    height: 500px;
+    margin-top: 20px;
+    filter: drop-shadow(10px 10px 10px black);
+    
+}
+
+.flex-container {
+ 
+}
+
+.form-seccion {
+    
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: chartreuse;
+
+}
+
+.form-seccion textarea{
+    width: 100%;
+}
+
+.form-input {
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.pie-de-pagina {
+    display: block;
+    background-color: rgb(0, 130, 130);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+}
