@@ -4,6 +4,43 @@
     padding: 0;
     margin: 0;
 }
+/* --ESTILOS DE HEADER PAGINA */
+
+.container-header {
+    width: 100vw;
+    height: 130px;
+    background-color: rgb(0, 130, 130);
+    position: relative;
+    z-index: 10;
+    display: flex;
+
+}
+
+.logo-abuela {
+    width: 10%;
+    background-image: url(/prueba_2/_resources/grandmother_cooking.png);
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.texto-header {
+    width: 65%;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+    text-align: center;
+    line-height: 130px;
+}
+
+.busqueda-header {
+    box-sizing: border-box;
+    margin: auto 35px;
+    width: 25%;
+}
+
+/* --ESTILOS DE PAGINA NAVEGADOR- */
 
 p {
     font-size: 0.85em;
@@ -46,6 +83,8 @@ p {
     background-color: rgb(2, 197, 197);
     transform: scale(1.05);
 }
+
+/* --ESTILOS DE PAGINA BODY- */
 
 .imagenes {
     width: 200px;
@@ -138,8 +177,24 @@ body {
     background-size: contain;
     filter: drop-shadow(10px 10px 10px black);
 }
+
+/* --ESTILOS PIE DE PAGINA-- */
+
+.pie-de-pagina {
+    display: block;
+    background-color: rgb(0, 130, 130);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* --ESTILOS DE PAGINA CONTACTO-- */
+
 .container-contacto {
+    display: block;
+    justify-content: center;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .container-contacto input {
@@ -149,41 +204,76 @@ body {
 .tabla-cortar-contacto {
     background-image: url(/prueba_2/_resources/tabla-cocina.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
+
     background-size: 650px;
     height: 500px;
     margin-top: 20px;
     filter: drop-shadow(10px 10px 10px black);
-    
+    box-sizing: border-box; 
 }
 
-.flex-container {
- 
-}
-
-.form-seccion {
-    
-    display: flex;
-    flex-direction: column;
+.form-seccion { 
+    box-sizing: border-box;
     width: 400px;
-    background-color: chartreuse;
-
-}
-
-.form-seccion textarea{
-    width: 100%;
+    margin-left: 390px; 
+    padding-top: 70px;
+    
 }
 
 .form-input {
+    box-sizing: border-box;
     margin: 5px;
     padding: 5px;
     width: 400px;
 }
 
-.pie-de-pagina {
-    display: block;
-    background-color: rgb(0, 130, 130);
-    color: white;
-    padding: 10px;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+/* ------------------------------------- */
+
+
+/* --ESTILOS DE PAGINA CONTACTO 2-- */
+
+.contenedor {
+    height: 100vh;
+    width: auto;
+    box-sizing: border-box;
 }
+
+.form-contacto2 {
+    background-color: rgb(0, 130, 130);
+    height: 350px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    border-radius: 7px;
+
+}
+.texto-contacto {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    max-width: 100%;
+}
+
+.boton-form {
+    background-color:rgb(2, 66, 66);
+    color: white;
+}
+.boton-form:hover {
+    cursor: pointer;
+    background-color:rgb(2, 104, 104);
+}
+/* ------------------------------------- */
