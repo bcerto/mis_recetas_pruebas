@@ -35,6 +35,8 @@
 }
 
 .busqueda-header {
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
     margin: auto 35px;
     width: 25%;
