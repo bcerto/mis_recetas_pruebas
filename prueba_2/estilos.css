@@ -3,11 +3,17 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+}
+
 /* --ESTILOS DE HEADER PAGINA */
 
 .container-header {
-    width: 100vw;
+    width: 100%;
     height: 130px;
     background-color: rgb(0, 130, 130);
     position: relative;
@@ -26,12 +32,13 @@
 }
 
 .texto-header {
-    width: 65%;
+    width: 60%;
     color: white;
     font-family: 'Caveat', cursive;
     font-size: 4em;
     text-align: center;
     line-height: 130px;
+
 }
 
 .busqueda-header {
@@ -39,8 +46,15 @@
     flex-direction: row;
     box-sizing: border-box;
     margin: auto 35px;
-    width: 25%;
+
+    width: 20%;
+
 }
+
+.busqueda-header .boton-busqueda {
+    width: 80px;
+}
+
 
 /* --ESTILOS DE PAGINA NAVEGADOR- */
 
@@ -119,7 +133,7 @@ body {
 }
 
 .img-del-dia img{
-    width: 560px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -127,7 +141,7 @@ body {
     height: 500px;
     width: auto;
     background-color: blueviolet;
-    background-image: url(/prueba_2/_resources/Comida-típica-de-Bangladesh.jpg);
+    background-image: url(/prueba_2/_resources/Comida-típica-de-Bangladesh.jpg);
     background-size: center;
     background-repeat: no-repeat;
     border-bottom: 40px solid  rgb(0, 130, 130);
@@ -180,15 +194,6 @@ body {
     filter: drop-shadow(10px 10px 10px black);
 }
 
-/* --ESTILOS PIE DE PAGINA-- */
-
-.pie-de-pagina {
-    display: block;
-    background-color: rgb(0, 130, 130);
-    color: white;
-    padding: 10px;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
-}
 
 /* --ESTILOS DE PAGINA CONTACTO-- */
 
@@ -242,8 +247,8 @@ body {
 }
 
 .form-contacto2 {
-    background-color: rgb(0, 130, 130);
-    height: 350px;
+    background-color: rgb(0, 130, 130, 0.8);
+    height: 400px;
     width: 400px;
     margin: auto;
     margin-top: 40px;
@@ -279,3 +284,14 @@ textarea {
     background-color:rgb(2, 104, 104);
 }
 /* ------------------------------------- */
+
+
+/* --ESTILOS PIE DE PAGINA-- */
+
+.pie-de-pagina {
+    display: block;
+    background-color: rgb(0, 130, 130);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+}
